@@ -35,15 +35,38 @@ color: rgb(240, 228, 228)
     .audio-desgin{
         align-items: center;
     }
-.flexbox-content{
-    margin-top: 40px;
-    margin-bottom: 40px;
-     text-align: center;
+.donation-text{
+    text-align: center;
+    padding: 80px;
+}
+
+
+    .donation__amount {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 100px;
+      }
+      
+      .donation__amount span {
+        padding: 30px 30px;
+        background-color: #8b510e25;
+        margin-right: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #201e20cd;
+        font-weight: 700;
+      }
+      .flex-content{
+        display: flex;
+        margin: 30px;
+        padding: 05px;
+      }
+     .flex-content p{
+        background-color: aquamarine;
+        padding: 50px;
+        margin: 30px;
+        border-radius: 10px;
+     }
+      
      
-}
-.flex-box{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-justify-content: center;
-}
