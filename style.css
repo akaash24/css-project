@@ -45,7 +45,7 @@ color: rgb(240, 228, 228)
         display: flex;
         justify-content: center;
         margin-top: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
       }
       
       .donation__amount span {
@@ -58,15 +58,46 @@ color: rgb(240, 228, 228)
         font-weight: 700;
       }
       .flex-content{
+        
         display: flex;
-        margin: 30px;
+        margin: 200px;
         padding: 05px;
       }
      .flex-content p{
         background-color: aquamarine;
         padding: 50px;
         margin: 30px;
-        border-radius: 10px;
+        border-radius: 50px;
+     }
+     .flex-picture{
+display: flex;
+margin: 0px;
+padding: 0px;
+justify-content: center;
+
+     }
+     .flex-picture img{
+        padding: 20px;
+        margin: 20px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+     
+     footer{
+        text-align: center;
+        background-color: #130a01;
+        color: aliceblue;
+        padding-top: 50px;
+        padding-bottom: 50px;
      }
       
      
